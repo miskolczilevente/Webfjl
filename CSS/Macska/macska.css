@@ -1,0 +1,20 @@
+ /*
+        szelektor {
+            tulajdonság: ertek;
+        }
+        */
+        p {
+            color: blue;
+        }
+        nav a {
+            color: green;
+            padding: 20px;
+            background-color: yellow;
+        }
+        h2, h3 {
+            color: purple;
+        }
+        nav {
+            border: 1px solid black;
+            padding: 20px;
+        }
