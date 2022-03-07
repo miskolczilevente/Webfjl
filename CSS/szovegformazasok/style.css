@@ -48,3 +48,44 @@ a:hover {
 #p9 {
     text-transform: uppercase;
 }
+
+#p10 {
+    text-transform: lowercase;
+}
+
+#p11 {
+    text-transform: capitalize;
+}
+
+#p12 {
+    text-align: justify;
+    line-height: 3em;
+}
+
+#p13 {
+    background-color: bisque;
+    white-space: nowrap;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    /* white-space: normal; */
+}
+
+#p14 {
+    background-color: tomato;
+}
+
+#p15 {
+    background-color: rgb(196, 0, 0);
+}
+
+#p16 {
+    background-color: rgb(158, 50, 158);
+}
+
+#p17 {
+    background-color: rgba(158, 50, 158, 0.4)
+}
+
+#p18 {
+    background-color: #B8860B;
+}
