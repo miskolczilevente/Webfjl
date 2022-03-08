@@ -98,5 +98,10 @@ a:hover {
 }
 
 #p20 {
-    
+    /* árnyalat, telítetség, fényerő  */
+    background-color: hsl(217, 90%, 20%);
+}
+
+#p21 span {
+    color: red;
 }
