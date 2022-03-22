@@ -70,7 +70,7 @@ a:first-of-type {
     margin: 10px calc((100% - var(--w))/2);
 }
 
-#div9~div {
+.utso~div {
     width: 80%;
     margin: 10px auto;
     padding: 20px;
@@ -99,10 +99,20 @@ a:first-of-type {
 }
 
 #div14 {
-    width: 40%;
+    width: calc(80% - 18px);
     border: 10px solid blue;
+    box-sizing: content-box;
 }
 
 #div15 {
+    width: calc(80% + 42px);
     border: 10px solid purple;
+    box-sizing: border-box;
+}
+
+#div25 {
+    background-color: chartreuse;
+    width: 100%;
+    box-sizing: border-box;
+    border: 10px solid red;
 }
