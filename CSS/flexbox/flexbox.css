@@ -1,0 +1,30 @@
+/* .flexbox {
+    background-color: azure;
+    text-align: center;
+}
+
+.flexbox > div {
+    border: 1px solid black;
+    height: 40px;
+    display: inline-block;
+    width: 100px;
+    font-size: 10px;
+} */
+.flexbox {
+    background-color: azure;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.flexbox > div {
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    font-size: 10px;
+}
