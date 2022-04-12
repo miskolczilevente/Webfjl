@@ -18,3 +18,7 @@ td {
     background-color: green;
     color: white;
 }
+
+.container-fluid {
+    background-color: hotpink;
+}
