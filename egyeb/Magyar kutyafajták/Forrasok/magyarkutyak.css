@@ -1,11 +1,14 @@
 .hasab {
-    float: left
-
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
 
 footer {
-
-
+    border-top: 2px solid #a52a2a;
+    clear: both;
 }
 
 
@@ -23,8 +26,37 @@ li {
     display: inline-block;
     min-width: 50px;
     border-right: 2px solid #a52a2a;
+    padding: 6px;
+    color: white;
 }
 
 li:last-child {
     border: none;
+}
+
+h2 {
+    width: 96%;
+    background-color: #cd853f;
+    padding: 5px;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: justify;   
+}
+
+.hasab p {
+    width: 96%;
+}
+
+img {
+    width: 100px;
+    border: 2px solid #a52a2a;
+    float: left;
+    margin: 10px;
+}
+
+ul {
+    padding: 0px;
 }
